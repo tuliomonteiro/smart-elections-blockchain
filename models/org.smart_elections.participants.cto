@@ -1,0 +1,11 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.smart_elections.participants
+
+participant Eleitor identified by cpf {
+  o String nome
+  o String cpf
+  o String tituloEleitoral
+}

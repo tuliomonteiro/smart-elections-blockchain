@@ -1,0 +1,24 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.smart_elections.assets
+
+asset candidato identified by  partido {
+  o String nome
+  o Integer cpf
+  o String partido
+  o Integer totalVotos
+}
+
+asset urna identified by id {
+  o String id
+  o Integer numeroSerie
+  o String cidade
+  o String timeStamp
+}
+
+asset ifVoted identified by hash {
+  o String hash
+  o Boolean checkIfVoted
+}

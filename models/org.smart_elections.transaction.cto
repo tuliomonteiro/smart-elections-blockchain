@@ -1,0 +1,31 @@
+
+namespace org.smart_elections.transaction
+
+import org.smart_elections.assets.*
+
+import org.smart_elections.participants.*
+
+transaction checkIfVoted {
+  o Boolean checkIfVoted
+}
+
+transaction votar {
+  --> candidato candidatoAsset
+  --> ifVoted ifVotedAsset
+}
+
+transaction SetIfVoted {
+  o String hash
+}
+
+transaction AddEleitor {
+  o String nome
+  o String cpf
+  o String tituloEleitoral
+}
+
+transaction SetCandidato {
+  o String nome
+  o Integer cpf
+  o String partido
+}

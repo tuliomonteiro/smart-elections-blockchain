@@ -1,0 +1,7 @@
+namespace org.smart_elections.events
+
+import org.smart_elections.participants.*
+
+event addIfVoted {
+  --> Eleitor eleitor
+}

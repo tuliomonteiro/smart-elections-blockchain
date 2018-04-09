@@ -1,0 +1,11 @@
+query Q1{
+  description: "Select all Candidatos"
+  statement:
+    SELECT  org.smart_elections.assets.candidato
+}
+
+query Q2{
+  description: "Select all IfVoted"
+  statement:
+    SELECT org.smart_elections.assets.ifVoted
+}

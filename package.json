@@ -1,0 +1,22 @@
+{
+  "name": "smart_elections",
+  "version": "0.0.1",
+  "description": "A blockchain application for computing votes to candidates on the blockchain network",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Tulio Monteiro, Gabriel Carvalho, Beatriz Cirilo",
+  "email": "tuliomonterio@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}
